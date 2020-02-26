@@ -26,7 +26,16 @@ class Reports extends React.Component {
                 }]
             },
 
-            options: {}
+            options: {scales: {
+		xAxes: [{
+			display: false
+		}],
+     yAxes: [{
+            ticks: {
+                beginAtZero: true
+            }
+        }]
+	}}
         });
 
     }
