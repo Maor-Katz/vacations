@@ -28,7 +28,7 @@ class Reports extends React.Component {
 
             options: {scales: {
 		xAxes: [{
-			display: false
+			display: true
 		}],
      yAxes: [{
             ticks: {
