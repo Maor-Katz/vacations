@@ -1,0 +1,451 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #09d3ac;
+}
+
+.Login {
+    height: 100%;
+}
+
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.login-block {
+    background: #DE6262; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    float: left;
+    height: 100vh;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.banner-sec {
+    background: url(https://static.pexels.com/photos/33972/pexels-photo.jpg) no-repeat left bottom;
+    background-size: cover;
+    min-height: 500px;
+    border-radius: 0 10px 10px 0;
+    padding: 0;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 15px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+    border-radius: 0 10px 10px 0;
+}
+
+.carousel-caption {
+    text-align: left;
+    left: 5%;
+}
+
+.login-sec {
+    padding: 50px 30px;
+    position: relative;
+}
+
+.login-sec .copy-text {
+    position: absolute;
+    width: 80%;
+    bottom: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.login-sec .copy-text i {
+    color: #FEB58A;
+}
+
+.login-sec .copy-text a {
+    color: #E36262;
+}
+
+.login-sec h2 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #DE6262;
+}
+
+.login-sec h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #FEB58A;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn-login {
+    background: #DE6262;
+    color: #fff;
+    font-weight: 600;
+}
+
+.banner-text {
+    width: 70%;
+    position: absolute;
+    bottom: 40px;
+    padding-left: 20px;
+}
+
+.banner-text h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.banner-text p {
+    color: #fff;
+}
+
+.registarButton {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.registarButton:hover {
+    cursor: pointer;
+}
+
+.containerRegister {
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    background: linear-gradient(to bottom, #FFB88C, #DE6262);
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 67px;
+    box-shadow: 2px 5px 5px 0px #eee;
+    max-width: 500px;
+    padding-top: 10px;
+    height: 363px;
+    margin-top: 166px;
+}
+
+/*--- for label of first and last name---*/
+/*.lastname{*/
+/*  margin-left: 1px;*/
+/*  font-family: sans-serif;*/
+/*  font-size: 14px;*/
+/*  color: white;*/
+/*  margin-top: 10px;*/
+/*}*/
+/*.firstname{*/
+/*  margin-left: 1px;*/
+/*  font-family: sans-serif;*/
+/*  font-size: 14px;*/
+/*  color: white;*/
+/*  margin-top: 5px;*/
+/*}*/
+/*#lname{*/
+/*  margin-top:5px;*/
+/*}*/
+
+
+/*---for heading-----*/
+.heading {
+    text-decoration: bold;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+/*-------for email----------*/
+/*------label----*/
+/*#email{*/
+/*  margin-top: 5px;*/
+/*}*/
+/*-----------for Password--------*/
+/*-------label-----*/
+/*.mail{*/
+/*  margin-left: 44px;*/
+/*  font-family: sans-serif;*/
+/*  color: white;*/
+/*  font-size: 14px;*/
+/*  margin-top: 13px;*/
+/*}*/
+/*.pass{*/
+/*  color: white;*/
+/*  margin-top: 9px;*/
+/*  font-size: 14px;*/
+/*  font-family: sans-serif;*/
+/*  margin-left: 6px;*/
+/*  margin-top: 9px;*/
+/*}*/
+/*#password{*/
+/*  margin-top: 6px;*/
+/*}*/
+/*------------for phone Number--------*/
+/*----------label--------*/
+.pno {
+    font-size: 18px;
+    margin-left: -13px;
+    margin-top: 10px;
+    color: #ff9;
+
+}
+
+/*--------------for Gender---------------*/
+/*--------------label---------*/
+/*.gender {*/
+/*  color: white;*/
+/*  font-family: sans-serif;*/
+/*  font-size: 14px;*/
+/*  margin-left: 28px;*/
+/*  margin-top: 8px;*/
+/*}*/
+
+/*---------- for Input type--------*/
+.col-xs-4.male {
+    color: white;
+    font-size: 13px;
+    margin-top: 9px;
+    padding-bottom: 16px;
+}
+
+.col-xs-4.female {
+    color: white;
+    font-size: 13px;
+    margin-top: 9px;
+    padding-bottom: 16px;
+    padding-right: 95px;
+}
+
+/*------------For submit button---------*/
+.sbutton {
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    background-color: #080808;
+    width: 32%;
+    margin-left: 41%;
+    margin-top: 16px;
+    box-shadow: 0px 2px 2px 0px white;
+
+}
+
+.btn.btn-warning:hover {
+    box-shadow: 2px 1px 2px 3px #99ccff;
+    background: #5900a6;
+    color: #fff;
+    transition: background-color 1.15s ease-in-out, border-color 1.15s ease-in-out, box-shadow 1.15s ease-in-out;
+
+}
+
+.containerWrapper {
+    background-image: url(https://static.pexels.com/photos/33972/pexels-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.lables {
+    width: 120px;
+    text-align: center;
+    /*margin-bottom: 18px;*/
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+
+.col-sm-12 {
+    height: 44px;
+    text-align: center;
+}
+
+.registerRow {
+    margin: 0 auto;
+    color: white;
+}
+
+.darksalmon {
+    background-color: darksalmon;
+}
+
+.gender {
+    padding-left: 2px;
+    padding-right: 5px;
+}
+
+.img-fluid2 {
+    height: -webkit-fill-available;
+}
+
+.centerText {
+    text-align: center;
+}
+
+/*vacations page*/
+
+.Vacations {
+    background-color: darksalmon;
+    height: 100%;
+    text-align: center;
+}
+
+#myChart {
+    width: 70% !important;
+    height: 70% !important;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.backToVacWrapper{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Reports {
+    background-color: darksalmon;
+    height: 100vh;
+}
+
+.title {
+
+    background-image: -webkit-linear-gradient(#378dbc, #b6e8f1 46%, #fff 50%, #32120e 54%, #ffc488 58%, #582c11 90%, #ec9b4e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #f5f5f5;
+    font-size: 100px;
+    font-family: Titillium Web, sans-serif;
+    font-style: italic;
+}
+
+.userAndLogout {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+}
+
+.logoutButton {
+    color: blue;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.vacationList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.specificVacation {
+    margin-left: 10px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.MuiCardHeader-title {
+    height: 50px;
+    overflow: auto;
+    width: 195px;
+}
+
+.red {
+    color: red;
+}
+
+.descSearch {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 0;
+}
+
+.MuiInputLabel {
+    padding: 3px;
+}
+
+.filterVacations {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textFilter {
+    margin-right: 10px;
+    color: white;
+}
+
+.textField {
+    padding: 5px;
+}
+
+.picker {
+    padding: 5px;
+}
+
+.searchBarButton {
+    width: 80px;
+    margin-left: 5px !important;
+}
+
+.addButton {
+    background-color: #303f9f;
+    color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.editBtn {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.btnModal {
+    width: 80px;
+    margin-left: 5px !important;
+}
+
+.modalField {
+    display: flex;
+    flex-direction: column;
+}
+
+.modalBtns {
+    text-align: center;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 666px) {
+    .title {
+        font-size: 34px;
+        -webkit-text-stroke: 1px #f5f5f5;
+    }
+
+    .userAndLogout {
+        font-size: 13px;
+    }
+}

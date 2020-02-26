@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f847fef-c463-44a3-9fa4-dd32f99b79ae" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1T8zv1pWO5U2J2PwenIJusBJk6K" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lessons/microServices/socket" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f847fef-c463-44a3-9fa4-dd32f99b79ae" name="Default Changelist" comment="" />
+      <created>1572856737087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572856737087</updated>
+      <workItem from="1572856738233" duration="19390000" />
+      <workItem from="1573575526843" duration="28485000" />
+      <workItem from="1574324307508" duration="2215000" />
+      <workItem from="1576255218535" duration="44601000" />
+      <workItem from="1579530818960" duration="6113000" />
+      <workItem from="1580114507941" duration="43104000" />
+      <workItem from="1581158330265" duration="596000" />
+      <workItem from="1581159472883" duration="27531000" />
+      <workItem from="1581579245209" duration="73620000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../lessons/21.11/typescript/classes.js" />
+        <option value="$PROJECT_DIR$/../../lessons/21.11/typescript/index.js" />
+        <option value="$PROJECT_DIR$/../../lessons/28.11/tsLeason.js" />
+        <option value="$PROJECT_DIR$/../tsForTest/tsForTest.js" />
+        <option value="$PROJECT_DIR$/../../lessons/26.11/inheritance.js" />
+      </list>
+    </option>
+  </component>
+</project>
